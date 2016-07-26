@@ -1,0 +1,19 @@
+{
+  "name": "offline-redux",
+  "version": "0.0.1",
+  "description": "Offline first redux development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pscohn/redux-offline.git"
+  },
+  "author": "Paul Cohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pscohn/redux-offline/issues"
+  },
+  "homepage": "https://github.com/pscohn/redux-offline#readme"
+}
