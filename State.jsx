@@ -28,12 +28,7 @@ class State extends Component {
 }
 
 function mapStateToProps(state) {
-  const { lists, todos, listTodos } = state;
-  return {
-    lists,
-    todos,
-    listTodos,
-  };
+  return state;
 }
 
 const mapDispatchToProps = (dispatch) => {

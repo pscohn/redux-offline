@@ -1,6 +1,11 @@
 import thunk from 'redux-thunk';
-import { action } from '../../services/action';
-import { HYDRATE_STATE } from '../../constants';
+
+function action(type, payload) {
+  return {
+    type,
+    payload,
+  }
+}
 
 export function onSaveState() {
   return (dispatch, getState) => {
@@ -12,5 +17,5 @@ export function onSaveState() {
 }
 
 export function onLoadState(state) {
-  return action(HYDRATE_STATE, { state });
+  return action('HYDRATE_STATE', { state });
 }
